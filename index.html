@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Stylesheet Main.css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/main.css" />
+    
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script> -->
+        
+    
+</head>
+
+<body>
+    <!-- BACKGROUND IMAGE -->
+    <div id="bg">
+
+        <!-- NAVIGATION BAR -->
+
+        <nav class=" fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="circle animated fadeInDown">
+                <img id="bioPic" src="img/bioPic.png">
+            </div>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link portfolio__title" href="index.html#hey">About <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link portfolio__title" href="index.html#yayo">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link portfolio__title" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+        </nav>
+        <div id="container">
+            <!-- <img id="bioPic" class="animated fadeInDown"  src="img/bioPic.png"> -->
+            <h2 class="Bio1 animated slideInRight">DANIEL BUITRAGO</h2>
+            <h2 class="Bio2 animated slideInLeft">Full Stack Web Developer</h2>
+            <a class=" nav-link portfolio__title" href="index.html#portfolio"><div class="Btn animated fadeIn ">CHECK OUT MY WORK</div></a>
+        </div>
+        <div id="hey"></div>
+    </div>
+
+<div id="Section2">
+    <h1 id="about">About Me</h1>
+    <hr>
+    <p id="para"> Georgia Tech Coding Bootcamp graduate with the knowledge and skills to build end-to-end web applications.<br>
+        I have worked independently as well as in groups to work on complex projects throughout the entire development process.<br>
+        I find it very enjoyable detecting and correcting errors while using creativity and curiosity to learn more and expand my skill set.<br>
+        Full stack web development to me is creating something special, helpful, and easy to use in the most efficient and dynamic way possible.      
+    </p>
+    <div id="yayo"></div>
+</div>
+
+<div id="Section3">
+
+    <h1 id="portfolio">Portfolio</h1>
+    <hr>
+    <table class="squares">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="section1 trivia">
+                        <a href="https://danbui57.github.io/TriviaGame/">
+                            <div class="selection" id="trivia"></div>
+                            <!-- <div class="trivia">Trivia Game</div> -->
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div class="section2">
+                        <a href="https://marleeg.github.io/WhoRepresentsYou/">
+                            <div class="selection" id="project"></div>
+                            <!-- <div class="project">Who represents you?</div> -->
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div class="section3">
+                        <a href="https://danbui57.github.io/Giphy/">
+                            <div class="selection" id="giphy"></div>
+                            <!-- <div class="giphy">Giphy</div> -->
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="section4">
+                        <a href="https://mysterious-wildwood-14420.herokuapp.com/">
+                            <div class="selection" id="wine"></div>
+                            <!-- <div class="wine">Omniscient Aerator</div> -->
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div class="section5">
+                        <a href="https://nameless-beach-40924.herokuapp.com/">
+                            <div class="selection" id="house"></div>
+                            <!-- <div class="house">Find your home</div> -->
+                        </a>
+                    </div>
+                </td>
+                <!-- <td>
+                     <div class="section6">
+        <div class="selection" id="run"></div>
+        <div class="run">Running</div>
+    </div>
+                </td> -->
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+    <div class="footer">
+        <h2 id="contact">Contact info</h2>
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="mailto:danbui57@gmail.com">Email: Danbui57@gmail.com</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/danbui57">Github: Danbui57</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio: Coming soon</a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="assets/main.js"></script>
+
+
+
+</body>
+
+</html>
