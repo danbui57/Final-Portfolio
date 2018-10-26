@@ -16,13 +16,4 @@ $(document).ready(function () {
             });
         }
     });
-
-//     $(".selection").hover(function() {
-// const isHovered = $(".selection").is(":hover");
-
-//     if (isHovered)  {
-//         $(this).addClass("animated fadeIn") 
-//     } 
-//         else {$(this).removeClass("animated fadeIn")}
-//     }) 
 });
