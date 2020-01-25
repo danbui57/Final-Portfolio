@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,56 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Bootstrap -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
     <!-- Stylesheet Main.css -->
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/main.css" />
-    
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/main.css" />   
     <!-- Animate CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">   
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">  
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script> -->
-        
-    
 </head>
 
 <body>
     <!-- BACKGROUND IMAGE -->
     <div id="bg">
-
+      
         <!-- NAVIGATION BAR -->
-
-        <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+        <nav class="fixed-top navbar navbar-expand-sm navbar-dark bg-dark">
+            
             <div class="circle animated fadeInDown">
                 <img id="bioPic" src="img/bioPic.png">
             </div>
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link portfolio__title" href="index.html#hey">About <span class="sr-only"></span></a>
+                        <a class="nav-link link" href="#About">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link portfolio__title" href="index.html#yayo">Portfolio</a>
+                        <a class="nav-link link" href="#Portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link portfolio__title" href="index.html#contact">Contact</a>
+                        <a class="nav-link link" href="#contact">Contact</a>
                     </li>
                 </ul>
         </nav>
-        <div id="container">
-            <!-- <img id="bioPic" class="animated fadeInDown"  src="img/bioPic.png"> -->
-            <h2 class="Bio1 animated slideInRight">DANIEL BUITRAGO</h2>
-            <h2 class="Bio2 animated slideInLeft">Full Stack Web Developer</h2>
-            <a class=" nav-link portfolio__title" href="index.html#portfolio"><div class="Btn animated fadeIn ">CHECK OUT MY WORK</div></a>
         </div>
-        <div id="hey"></div>
+        <div id="filter">
+            <!-- <img id="bioPic" class="animated fadeInDown"  src="img/bioPic.png"> -->
+            <h2 class="Bio1 animated bounceInLeft">DANIEL BUITRAGO</h2>
+            <h2 class="Bio2 animated bounceInLeft">Full Stack Web Developer</h2>
+            <a class="btn animated fadeIn link" href='index.html#Portfolio'>CHECK OUT MY WORK</a>
+        </div>
+        <div id="About"></div>
     </div>
 
 <div id="Section2">
@@ -68,16 +64,16 @@
         I find it very enjoyable detecting and correcting errors while using creativity and curiosity to learn more and expand my skill set.<br>
         Full stack web development to me is creating something special, helpful, and easy to use in the most efficient and dynamic way possible.      
     </p>
-    <div id="yayo"></div>
+    <div id="Portfolio"></div>
 </div>
 
 <div id="Section3">
 
-    <h1 id="portfolio">Portfolio</h1>
-    <hr>
-    <table class="squares">
-        <tbody>
-            <tr>
+     <h1 id="portfolio">Portfolio</h1>
+<hr>
+<tbody>
+            <table class="squares">
+             <tr>
                 <td>
                     <div class="section1">
                         <a href="https://danbui57.github.io/TriviaGame/">
@@ -130,7 +126,7 @@
 
 
     <div class="footer">
-        <h2 id="contact">Contact info</h2>
+        <h1 id="contact">Contact info</h1>
 
         <ul class="nav justify-content-center">
             <li class="nav-item">
@@ -144,10 +140,6 @@
             </li>
         </ul>
     </div>
-
-    <script src="assets/main.js"></script>
-
-
 
 </body>
 
