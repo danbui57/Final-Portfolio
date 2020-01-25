@@ -95,7 +95,7 @@ html {
     transition-duration: 0.5s;
 }
 
-.Bio1 { 
+.text1 { 
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
     padding: 50px;
@@ -106,7 +106,7 @@ html {
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     }
 
-.Bio2 { 
+.text2 { 
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
     padding:40px;
@@ -266,11 +266,26 @@ hr {
         transition-duration: 0.5s;
                         
     }
+    #trivia:hover {  
+        filter: contrast(200%);
+        width:150px;
+        height:100px;
+        transition: all 0.5s ease-in-out;
+        transition-duration: 0.5s;
+    }
     
     #project {
         content: url("../img/project.png");
         width:100px;
         height:50px;
+        transition: all 0.5s ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    #project:hover {  
+        filter: contrast(200%);
+        width:150px;
+        height:100px;
         transition: all 0.5s ease-in-out;
         transition-duration: 0.5s;
     }
@@ -282,10 +297,25 @@ hr {
         transition-duration: 0.5s;
     }
 
+    #giphy:hover {  
+        filter: contrast(200%);
+        width:150px;
+        height:100px;
+        transition: all 0.5s ease-in-out;
+        transition-duration: 0.5s;
+    }
+
     #wine {
         content: url("../img/wineapp.png");
         width:100px;
         height:50px;
+        transition: all 0.5s ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    #wine:hover {   filter: contrast(200%);
+        width:150px;
+        height:100px;
         transition: all 0.5s ease-in-out;
         transition-duration: 0.5s;
     }
@@ -297,11 +327,27 @@ hr {
         transition: all 0.5s ease-in-out;
         transition-duration: 0.5s;
     }
+
+    #house:hover {  
+        filter: contrast(200%);
+        width:150px;
+        height:100px;
+        transition: all 0.5s ease-in-out;
+        transition-duration: 0.5s;
+    }
    
     #hangman {
         content: url("../img/hangman.png");
         width:100px;
         height:50px;
+        transition: all 0.5s ease-in-out;
+        transition-duration: 0.5s;
+    }
+
+    #hangman:hover {  
+        filter: contrast(200%);
+        width:150px;
+        height:100px;
         transition: all 0.5s ease-in-out;
         transition-duration: 0.5s;
     }
@@ -312,7 +358,7 @@ hr {
         margin-bottom:50px;
         }
 
-    .Bio1 { 
+    .text1 { 
         font-family: 'Anton', sans-serif;
         letter-spacing: 2px;
         padding: 50px;
@@ -323,7 +369,7 @@ hr {
         text-shadow: 1px 1px 2px rgb(0, 0, 0);
         }
         
-    .Bio2 { 
+    .text2 { 
         font-family: 'Anton', sans-serif;
         letter-spacing: 2px;
         padding:40px;
